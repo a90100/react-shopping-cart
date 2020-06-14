@@ -68,7 +68,7 @@ class Cart extends React.Component {
 
     return (
       <CartWrapper>
-        <h2 style={{ marginLeft: '1%' }}>商品列表</h2>
+        <h2 style={{ marginLeft: '1%' }}>我的購物籃</h2>
         {this.getItems(items, auth)}
         <div className="hr"></div>
         <div className="buy-part">
